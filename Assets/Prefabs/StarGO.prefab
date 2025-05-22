@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2425363467623294513}
   - component: {fileID: 8731979861736113483}
-  - component: {fileID: 8183411821113013596}
+  - component: {fileID: 7721779118273212844}
   m_Layer: 0
   m_Name: StarGO
   m_TagString: Untagged
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8183411821113013596
+--- !u!114 &7721779118273212844
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,4 +100,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658ecdbb7ade31e49a3298de879bc430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -0.4
+  speed: 0

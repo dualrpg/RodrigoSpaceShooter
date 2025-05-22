@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Star : MonoBehaviour
 {
-    public float speed;
+    public float speed = 0.5f;
     void Start()
     {
         

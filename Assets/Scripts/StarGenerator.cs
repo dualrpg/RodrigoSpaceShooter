@@ -24,7 +24,7 @@ public class StarGenerator : MonoBehaviour
 
             star.transform.position = new Vector2(Random.Range(min.x, max.x), Random.Range(min.y, max.y));
 
-            star.GetComponent<Star>().speed = -(0.003f * Random.value + 0.001f);
+            star.GetComponent<Star>().speed = -(0.03f * Random.value + 0.01f);
 
             star.transform.parent = transform;
 
